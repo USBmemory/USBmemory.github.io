@@ -10,7 +10,7 @@ hero:
   title: "<b>Yoo</b> SeungBeom"
   before_title: "반갑습니다 <b>제 이름은</b>"
   after_title: "I am <strong>Developer</strong>"
-  description: "사이버보안을 공부하고 있습니다다."
+  description: "사이버보안을 공부하고 있습니다."
   button1:
     label: "Download CV"
     link: "https://drive.google.com/"
@@ -70,19 +70,19 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "Python" #0-10 progress in dots
+        text: "기본적인 세팅과 심화적으로 프로젝트 진행 가능합니다"
         value: "85" #0-100 progress in %
 
-      - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "C/C++" #0-10 progress in dots
+        text: "기본적인 세팅 가능합니다"
         value: "75" #0-100 progress in %
 
   column2:
     items:
-      - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+      - label: "JAVA" #0-10 progress in dots
+        text: "복습중입니다."
+        value: "65" #0-100 progress in %
 
       - label: "React" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
