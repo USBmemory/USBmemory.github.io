@@ -19,10 +19,10 @@ hero:
     link: "#skills-section"
   bg_title: "Web Developer"
   info:
-    - num: "12 <strong>+</strong>"
+    - num: "2 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
 
-    - num: "330"
+    - num: "3"
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
