@@ -1,10 +1,18 @@
 [
   
     {
+      "title"    : "운영체제 개념",
+      "category" : "operating system",
+      "tags"     : "",
+      "url"      : "/operating%20system/2025/05/28/C-language-test/",
+      "date"     : "2025-05-28 00:00:00 +0900"
+    } ,
+  
+    {
       "title"    : "C프로그래밍 정리",
       "category" : "C Language",
       "tags"     : "",
-      "url"      : "/c%20language/2025/05/14/C-language-test/",
+      "url"      : "/c%20language/2025/05/14/C-language-test-copy/",
       "date"     : "2025-05-14 00:00:00 +0900"
     } ,
   
