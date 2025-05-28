@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-28T12:37:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Luique - CV Resume &amp;amp; Personal Portfolio Jekyll Theme</title><subtitle>Jekyll Resume / CV / vCard / Portfolio and Personal Portfolio by bslthemes</subtitle><author><name>Luique</name></author><entry><title type="html">운영체제 개념</title><link href="http://localhost:4000/operating%20system/2025/05/28/C-language-test/" rel="alternate" type="text/html" title="운영체제 개념" /><published>2025-05-28T00:00:00+09:00</published><updated>2025-05-28T00:00:00+09:00</updated><id>http://localhost:4000/operating%20system/2025/05/28/C-language-test</id><content type="html" xml:base="http://localhost:4000/operating%20system/2025/05/28/C-language-test/"><![CDATA[<h1 id="운영체제-개념">운영체제 개념</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-28T12:55:56+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Luique - CV Resume &amp;amp; Personal Portfolio Jekyll Theme</title><subtitle>Jekyll Resume / CV / vCard / Portfolio and Personal Portfolio by bslthemes</subtitle><author><name>Luique</name></author><entry><title type="html">운영체제 개념</title><link href="http://localhost:4000/operating%20system/2025/05/28/Operating-system/" rel="alternate" type="text/html" title="운영체제 개념" /><published>2025-05-28T00:00:00+09:00</published><updated>2025-05-28T00:00:00+09:00</updated><id>http://localhost:4000/operating%20system/2025/05/28/Operating-system</id><content type="html" xml:base="http://localhost:4000/operating%20system/2025/05/28/Operating-system/"><![CDATA[<h1 id="운영체제-개념">운영체제 개념</h1>
 <h2 id="운영체제란">운영체제란?</h2>
 <h3 id="정의">정의</h3>
 <ul>
@@ -23,18 +23,44 @@
 
 <p><strong>자원에 대한 훼손을 막고 사용자들과 응용프로그램들 사이에 자원을 효과적으로 공유할 수 있도록 하기 위함.</strong></p>
 
-<h2 id="운영체제operating-system의-구조">운영체제(Operating System)의 구조</h2>
-<p>![[Pasted image 20240406225732.png]]</p>
 <h2 id="운영체제와-응용-소프트웨어">운영체제와 응용 소프트웨어</h2>
 
-<p>|              | 운영체제                                      | 응용 소프트웨어                               |
-| ———— | —————————————– | ————————————– |
-| 목적           | 컴퓨터 하드웨어나 응용 소프트웨어 등 자원 관리                | 컴퓨터 사용자들의 요구를 충족시킬 수 있도록 설계된 소프트웨어     |
-| 기능           | 프로세스, 메모리, 파일 시스템, 입출력 장치 등 자원 관리와 사용자 관리 | 소포트웨어를 만든 특정 목적만 수행                    |
-| 개발 언어        | C / C++, 어셈블리어                            | C / C++뿐 아니라 Java, Python, C# 등 다양한 언어 |
-| 실행           | 부팅 시 메모리에 적재되어 실행을 시작하여 컴퓨터를 끌 때까지 실행     | 사용자가 명령을 통해 실행시키거나 종료시킴                |
-| 자원에 대한 접근 권한 | 컴퓨터의 모든 자원에 대해 배타적 독점 사용 권한               | 컴퓨터 자원을 사용하고자 할 때 반드시 운영체제에게 요청        |
-[[001(1) . 부팅이란]]</p>]]></content><author><name>Me</name></author><category term="operating system" /><summary type="html"><![CDATA[운영체제 개념 운영체제란? 정의 사용자와 컴퓨터 하드웨어 사이에서 중계 역할을 하면서 프로그램의 실행을 관리하고 제어하는 시스템 소프트웨어 컴퓨터가 켜질 때 메모리에 적재(Load)되어 모든 프로그램의 실행을 제어하고 사용자의 요청을 처리해주는 소프트웨어]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blog11.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blog11.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">C프로그래밍 정리</title><link href="http://localhost:4000/c%20language/2025/05/14/C-language-test-copy/" rel="alternate" type="text/html" title="C프로그래밍 정리" /><published>2025-05-14T00:00:00+09:00</published><updated>2025-05-14T00:00:00+09:00</updated><id>http://localhost:4000/c%20language/2025/05/14/C-language-test%20copy</id><content type="html" xml:base="http://localhost:4000/c%20language/2025/05/14/C-language-test-copy/"><![CDATA[<ul>
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>운영체제</th>
+      <th>응용 소프트웨어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>목적</td>
+      <td>컴퓨터 하드웨어나 응용 소프트웨어 등 자원 관리</td>
+      <td>컴퓨터 사용자들의 요구를 충족시킬 수 있도록 설계된 소프트웨어</td>
+    </tr>
+    <tr>
+      <td>기능</td>
+      <td>프로세스, 메모리, 파일 시스템, 입출력 장치 등 자원 관리와 사용자 관리</td>
+      <td>소포트웨어를 만든 특정 목적만 수행</td>
+    </tr>
+    <tr>
+      <td>개발 언어</td>
+      <td>C / C++, 어셈블리어</td>
+      <td>C / C++뿐 아니라 Java, Python, C# 등 다양한 언어</td>
+    </tr>
+    <tr>
+      <td>실행</td>
+      <td>부팅 시 메모리에 적재되어 실행을 시작하여 컴퓨터를 끌 때까지 실행</td>
+      <td>사용자가 명령을 통해 실행시키거나 종료시킴</td>
+    </tr>
+    <tr>
+      <td>자원에 대한 접근 권한</td>
+      <td>컴퓨터의 모든 자원에 대해 배타적 독점 사용 권한</td>
+      <td>컴퓨터 자원을 사용하고자 할 때 반드시 운영체제에게 요청</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Me</name></author><category term="operating system" /><summary type="html"><![CDATA[운영체제 개념 운영체제란? 정의 사용자와 컴퓨터 하드웨어 사이에서 중계 역할을 하면서 프로그램의 실행을 관리하고 제어하는 시스템 소프트웨어 컴퓨터가 켜질 때 메모리에 적재(Load)되어 모든 프로그램의 실행을 제어하고 사용자의 요청을 처리해주는 소프트웨어]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blog11.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blog11.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">C프로그래밍 정리</title><link href="http://localhost:4000/c%20language/2025/05/14/C-language/" rel="alternate" type="text/html" title="C프로그래밍 정리" /><published>2025-05-14T00:00:00+09:00</published><updated>2025-05-14T00:00:00+09:00</updated><id>http://localhost:4000/c%20language/2025/05/14/C-language</id><content type="html" xml:base="http://localhost:4000/c%20language/2025/05/14/C-language/"><![CDATA[<ul>
   <li>C 프로그램은 main 함수로 시작</li>
   <li>//는 한 줄 주석문이고 /* 는 여러 줄을 한꺼번에 주석처리하는 주석문</li>
   <li>printf 함수는 데이터를 화면에 출력할 때 사용</li>
