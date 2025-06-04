@@ -12,9 +12,9 @@ main:
     parent: 0
 
   # Services
-  - title: "Services"
-    url: "#services-section"
-    parent: 0
+  # - title: "Services"
+  #   url: "#services-section"
+  #   parent: 0
 
   # Skills
   - title: "Skills"
@@ -31,10 +31,10 @@ main:
     url: "#resume-section"
     parent: 0
 
-  # Testimonials
-  - title: "Testimonials"
-    url: "#testimonials-section"
-    parent: 0
+  # # Testimonials
+  # - title: "Testimonials"
+  #   url: "#testimonials-section"
+  #   parent: 0
 
   # Pricing
   - title: "Pricing"
