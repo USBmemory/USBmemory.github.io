@@ -16,7 +16,7 @@ main:
   #   url: "#services-section"
   #   parent: 0
 
-  # Skills
+  # Skillss
   - title: "Skills"
     url: "#skills-section"
     parent: 0
