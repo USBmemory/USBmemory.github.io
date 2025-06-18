@@ -44,11 +44,11 @@ portfolio:
     - name: "UI UX Design"
       slug: "ui-ux-design"
 
-    - name: "Photography"
-      slug: "photography"
+    # - name: "Photography"
+    #   slug: "photography"
 
-    - name: "Development"
-      slug: "development"
+    # - name: "Development"
+    #   slug: "development"
 
-    - name: "Branding"
-      slug: "branding"
+    # - name: "Branding"
+    #   slug: "branding"

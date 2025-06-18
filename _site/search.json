@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Python 개요",
+      "category" : "Python",
+      "tags"     : "",
+      "url"      : "/python/2025/05/28/Python/",
+      "date"     : "2025-05-28 00:00:00 +0900"
+    } ,
+  
+    {
       "title"    : "운영체제 개념",
       "category" : "operating system",
       "tags"     : "",

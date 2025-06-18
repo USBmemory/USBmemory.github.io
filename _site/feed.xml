@@ -1,4 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-18T15:54:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Need More Practice</title><subtitle>Need More Practice / CV / vCard / Portfolio and Personal Portfolio by bslthemes</subtitle><author><name>Luique</name></author><entry><title type="html">운영체제 개념</title><link href="http://localhost:4000/operating%20system/2025/05/28/Operating-system/" rel="alternate" type="text/html" title="운영체제 개념" /><published>2025-05-28T00:00:00+09:00</published><updated>2025-05-28T00:00:00+09:00</updated><id>http://localhost:4000/operating%20system/2025/05/28/Operating-system</id><content type="html" xml:base="http://localhost:4000/operating%20system/2025/05/28/Operating-system/"><![CDATA[<h1 id="운영체제-개념">운영체제 개념</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-18T18:07:17+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Need More Practice</title><subtitle>Need More Practice / CV / vCard / Portfolio and Personal Portfolio by bslthemes</subtitle><author><name>Luique</name></author><entry><title type="html">Python 개요</title><link href="http://localhost:4000/python/2025/05/28/Python/" rel="alternate" type="text/html" title="Python 개요" /><published>2025-05-28T00:00:00+09:00</published><updated>2025-05-28T00:00:00+09:00</updated><id>http://localhost:4000/python/2025/05/28/Python</id><content type="html" xml:base="http://localhost:4000/python/2025/05/28/Python/"><![CDATA[<h1 id="python-개요">Python 개요</h1>
+
+<p>Python은 읽기 쉽고 쓰기 쉬운 문법을 지닌 고급 프로그래밍 언어로, 1991년 Guido van Rossum에 의해 처음 발표되었습니다. 간결하면서도 명확한 문법, 강력한 표준 라이브러리와 풍부한 외부 패키지 생태계를 갖추고 있어, 웹 개발, 데이터 분석, 머신러닝, 자동화 스크립팅 등 다양한 분야에서 폭넓게 사용됩니다.</p>
+
+<h2 id="1-개발-환경-설정">1. 개발 환경 설정</h2>
+
+<ol>
+  <li><strong>설치</strong>: 공식 웹사이트(<a href="https://www.python.org\">https://www.python.org)에서</a>에서) 운영체제에 맞는 설치 파일을 다운로드 후 설치합니다.</li>
+  <li><strong>버전 관리</strong>: <code class="language-plaintext highlighter-rouge">pyenv</code>, <code class="language-plaintext highlighter-rouge">anaconda</code> 등을 이용해 여러 버전의 Python을 쉽게 관리할 수 있습니다.</li>
+  <li><strong>가상 환경</strong>: 프로젝트별로 독립된 패키지 관리가 필요할 때는 <code class="language-plaintext highlighter-rouge">venv</code>나 <code class="language-plaintext highlighter-rouge">virtualenv</code>, <code class="language-plaintext highlighter-rouge">conda</code>를 사용합니다.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 <span class="nt">-m</span> venv myenv
+<span class="nb">source </span>myenv/bin/activate  <span class="c"># Windows: myenv\Scripts\activate</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="2-기본-문법">2. 기본 문법</h2>
+
+<h3 id="21-변수와-자료형">2.1 변수와 자료형</h3>
+
+<ul>
+  <li><strong>숫자형</strong>: <code class="language-plaintext highlighter-rouge">int</code>, <code class="language-plaintext highlighter-rouge">float</code>, <code class="language-plaintext highlighter-rouge">complex</code></li>
+  <li><strong>문자열</strong>: <code class="language-plaintext highlighter-rouge">"Hello, World!"</code>, <code class="language-plaintext highlighter-rouge">'''여러 줄 문자열'''</code></li>
+  <li><strong>불리언</strong>: <code class="language-plaintext highlighter-rouge">True</code>, <code class="language-plaintext highlighter-rouge">False</code></li>
+  <li><strong>컬렉션</strong>: <code class="language-plaintext highlighter-rouge">list</code>, <code class="language-plaintext highlighter-rouge">tuple</code>, <code class="language-plaintext highlighter-rouge">set</code>, <code class="language-plaintext highlighter-rouge">dict</code></li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">pi</span> <span class="o">=</span> <span class="mf">3.14</span>
+<span class="n">name</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Alice</span><span class="sh">"</span>
+<span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="sh">"</span><span class="s">apple</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">banana</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">cherry</span><span class="sh">"</span><span class="p">]</span>
+<span class="n">settings</span> <span class="o">=</span> <span class="p">{</span><span class="sh">"</span><span class="s">debug</span><span class="sh">"</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span> <span class="sh">"</span><span class="s">version</span><span class="sh">"</span><span class="p">:</span> <span class="mf">2.0</span><span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="22-연산자">2.2 연산자</h3>
+
+<ul>
+  <li>산술 연산자: <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">-</code>, <code class="language-plaintext highlighter-rouge">*</code>, <code class="language-plaintext highlighter-rouge">/</code>, <code class="language-plaintext highlighter-rouge">//</code>, <code class="language-plaintext highlighter-rouge">%</code>, <code class="language-plaintext highlighter-rouge">**</code></li>
+  <li>비교 연산자: <code class="language-plaintext highlighter-rouge">==</code>, <code class="language-plaintext highlighter-rouge">!=</code>, <code class="language-plaintext highlighter-rouge">&lt;</code>, <code class="language-plaintext highlighter-rouge">&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;=</code>, <code class="language-plaintext highlighter-rouge">&gt;=</code></li>
+  <li>논리 연산자: <code class="language-plaintext highlighter-rouge">and</code>, <code class="language-plaintext highlighter-rouge">or</code>, <code class="language-plaintext highlighter-rouge">not</code></li>
+</ul>
+
+<h2 id="3-제어문">3. 제어문</h2>
+
+<h3 id="31-조건문">3.1 조건문</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">score</span> <span class="o">&gt;=</span> <span class="mi">90</span><span class="p">:</span>
+    <span class="n">grade</span> <span class="o">=</span> <span class="sh">'</span><span class="s">A</span><span class="sh">'</span>
+<span class="k">elif</span> <span class="n">score</span> <span class="o">&gt;=</span> <span class="mi">80</span><span class="p">:</span>
+    <span class="n">grade</span> <span class="o">=</span> <span class="sh">'</span><span class="s">B</span><span class="sh">'</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">grade</span> <span class="o">=</span> <span class="sh">'</span><span class="s">C</span><span class="sh">'</span>
+</code></pre></div></div>
+
+<h3 id="32-반복문">3.2 반복문</h3>
+
+<ul>
+  <li><strong>for</strong>:
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">fruits</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>while</strong>:
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">count</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="n">count</span><span class="p">)</span>
+    <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="4-함수">4. 함수</h2>
+
+<ul>
+  <li><strong>정의</strong>:
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="s">Hello, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s">!</span><span class="sh">"</span>
+</code></pre></div>    </div>
+  </li>
+  <li><strong>가변 인자</strong>: <code class="language-plaintext highlighter-rouge">*args</code>, <code class="language-plaintext highlighter-rouge">**kwargs</code></li>
+  <li><strong>람다 함수</strong>: <code class="language-plaintext highlighter-rouge">lambda x: x**2</code></li>
+</ul>
+
+<h2 id="5-모듈-및-패키지">5. 모듈 및 패키지</h2>
+
+<ul>
+  <li><strong>모듈 불러오기</strong>: <code class="language-plaintext highlighter-rouge">import math</code>, <code class="language-plaintext highlighter-rouge">from datetime import datetime</code></li>
+  <li><strong>패키지 구조</strong>:
+    <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mypackage/
+├── __init__.py
+├── module1.py
+└── subpackage/
+    ├── __init__.py
+    └── module2.py
+</code></pre></div>    </div>
+  </li>
+  <li><strong>패키지 설치</strong>: <code class="language-plaintext highlighter-rouge">pip install requests</code></li>
+</ul>
+
+<h2 id="6-객체-지향-프로그래밍">6. 객체 지향 프로그래밍</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+
+    <span class="k">def</span> <span class="nf">greet</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Hi, I</span><span class="sh">'</span><span class="s">m </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">self</span><span class="p">.</span><span class="n">age</span><span class="si">}</span><span class="s"> years old.</span><span class="sh">"</span><span class="p">)</span>
+
+<span class="c1"># 상속\class Student(Person):
+</span>    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">,</span> <span class="n">student_id</span><span class="p">):</span>
+        <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">)</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">student_id</span> <span class="o">=</span> <span class="n">student_id</span>
+</code></pre></div></div>
+
+<h2 id="7-예외-처리">7. 예외 처리</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">try</span><span class="p">:</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="mi">10</span> <span class="o">/</span> <span class="mi">0</span>
+<span class="k">except</span> <span class="nb">ZeroDivisionError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">오류 발생: 나눗셈에서 0 사용</span><span class="sh">"</span><span class="p">)</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">예외 처리 완료</span><span class="sh">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="8-파일-입출력">8. 파일 입출력</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="nf">open</span><span class="p">(</span><span class="sh">'</span><span class="s">data.txt</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">r</span><span class="sh">'</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="sh">'</span><span class="s">utf-8</span><span class="sh">'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">content</span> <span class="o">=</span> <span class="n">f</span><span class="p">.</span><span class="nf">read</span><span class="p">()</span>
+
+<span class="k">with</span> <span class="nf">open</span><span class="p">(</span><span class="sh">'</span><span class="s">output.txt</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">w</span><span class="sh">'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">f</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="sh">'</span><span class="s">Hello, file!</span><span class="sh">'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="9-표준-라이브러리-주요-모듈">9. 표준 라이브러리 주요 모듈</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">os</code>: 운영체제 인터페이스</li>
+  <li><code class="language-plaintext highlighter-rouge">sys</code>: 파이썬 인터프리터 관련 정보</li>
+  <li><code class="language-plaintext highlighter-rouge">json</code>: JSON 인코딩/디코딩</li>
+  <li><code class="language-plaintext highlighter-rouge">datetime</code>: 날짜 및 시간 처리</li>
+  <li><code class="language-plaintext highlighter-rouge">re</code>: 정규 표현식</li>
+</ul>
+
+<h2 id="10-외부-라이브러리-예시">10. 외부 라이브러리 예시</h2>
+
+<ul>
+  <li><strong>웹 개발</strong>: Flask, Django</li>
+  <li><strong>데이터 과학</strong>: NumPy, Pandas, Matplotlib</li>
+  <li><strong>머신러닝</strong>: scikit-learn, TensorFlow, PyTorch</li>
+</ul>
+
+<h2 id="11-팁과-모범-사례">11. 팁과 모범 사례</h2>
+
+<ul>
+  <li><strong>코딩 스타일</strong>: PEP 8 준수</li>
+  <li><strong>문서화</strong>: Docstring 사용</li>
+  <li><strong>테스트</strong>: unittest, pytest 활용</li>
+  <li><strong>버전 관리</strong>: Git 사용 및 커밋 메시지 규칙 준수</li>
+</ul>
+
+<hr />
+
+<p>위 내용을 바탕으로 Python의 주요 개념과 실습 방법을 빠르게 이해하고, 직접 코드를 작성하며 경험을 쌓아 나가시길 바랍니다.</p>]]></content><author><name>Me</name></author><category term="Python" /><summary type="html"><![CDATA[Python 개요]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/blog/blog12.png" /><media:content medium="image" url="http://localhost:4000/assets/img/blog/blog12.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">운영체제 개념</title><link href="http://localhost:4000/operating%20system/2025/05/28/Operating-system/" rel="alternate" type="text/html" title="운영체제 개념" /><published>2025-05-28T00:00:00+09:00</published><updated>2025-05-28T00:00:00+09:00</updated><id>http://localhost:4000/operating%20system/2025/05/28/Operating-system</id><content type="html" xml:base="http://localhost:4000/operating%20system/2025/05/28/Operating-system/"><![CDATA[<h1 id="운영체제-개념">운영체제 개념</h1>
 <h2 id="운영체제란">운영체제란?</h2>
 <h3 id="정의">정의</h3>
 <ul>
