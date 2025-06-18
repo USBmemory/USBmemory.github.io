@@ -22,7 +22,7 @@ hero:
     - num: "2 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
 
-    - num: "3"
+    - num: "2"
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
@@ -143,7 +143,7 @@ resume:
 
 ### Testimonials [ testimonials ]
 testimonials:
-  title: "Testimonials"
+  title: "나의 우상들의 명언"
   subtitle: "what <b>IT master</b>"
   bg_title: "나의 우상들의 명언"
 

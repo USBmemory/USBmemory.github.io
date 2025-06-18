@@ -38,4 +38,4 @@ ui_text:
   works_bg_title:       "Portfolio"
   all:                  "All"
   read_more:            "Read More"
-  live_preview:         "Live Preview"
+  # live_preview:         "Live Preview"

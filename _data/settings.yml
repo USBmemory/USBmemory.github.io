@@ -41,8 +41,8 @@ footer:
 portfolio:
   layout: "list" # select works layout options: "Grid" or "List"
   filters:
-    - name: "UI UX Design"
-      slug: "ui-ux-design"
+    - name: "개발"
+      slug: "개발"
 
     # - name: "Photography"
     #   slug: "photography"
