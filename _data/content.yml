@@ -13,7 +13,7 @@ hero:
   description: "사이버보안을 공부하고 있습니다."
   button1:
     label: "Download CV"
-    link: "https://drive.google.com/"
+    link: "https://drive.google.com/file/d/1tigNuYIiJbJUTTAi07Vy18LHwCEHvIKJ/view?usp=sharing"
   button2:
     label: "My Skills"
     link: "#skills-section"
@@ -71,20 +71,32 @@ skills:
   column1:
     items:
       - label: "Python" #0-10 progress in dots
-        text: "기본적인 세팅과 심화적으로 프로젝트 진행 가능합니다"
+        text: "데이터 분석과 웹 개발 경험이 있으며, 자동화 스크립트 작성으로 반복 업무 효율을 크게 개선했습니다."
         value: "85" #0-100 progress in %
-        
+
+      - label: "C/C++" #0-10 progress in dots
+        text: "GCC와 Makefile을 이용한 개발 환경 세팅부터 메모리 관리와 포인터 활용, STL 라이브러리 사용이 가능합니다. 임베디드 시스템 지원 코드 작성과 성능 최적화, gdb를 활용한 디버깅 및 프로파일링 툴 사용에도 익숙합니다."
+        value: "75" #0-100 progress in %
+
   column2:
     items:
-      - label: "C/C++" #0-10 progress in dots
-        text: "기본적인 세팅 가능합니다"
-        value: "75" #0-100 progress in %
+      - label: "JAVA" #0-10 progress in dots
+        text: "객체지향 설계를 적용한 데스크톱·웹 애플리케이션 개발이 가능하며, Spring Boot 기반 경량 서비스 구축 경험이 있습니다. Maven/Gradle을 이용한 빌드 환경 구성과 코드 유지보수, 디버깅을 통해 안정적인 서비스 운영을 지원합니다."
+        value: "40" #0-100 progress in %
+
+      - label: "Kali linux" #0-10 progress in dots
+        text: "Nmap을 이용한 네트워크 스캐닝, Metasploit 기반 취약점 분석, Hydra를 활용한 패스워드 크래킹 등 주요 보안 도구를 사용해 보안 평가와 모의 해킹(펜테스트)을 수행해 왔습니다. 결과 보고서 작성 및 권고안 제시로 보안 강화 프로젝트를 이끌었습니다."
+        value: "70" #0-100 progress in %
 
   column3:
     items:
-      - label: "JAVA" #0-10 progress in dots
-        text: "복습중입니다."
-        value: "40" #0-100 progress in %
+      - label: "Ubuntu linux" #0-10 progress in dots
+        text: "시스템 설치·설정, 패키지 관리(apt), 사용자 권한 관리 등 서버 운영 전반을 안정적으로 수행합니다. 셸 스크립트를 활용한 자동화, cron 작업 설정으로 DevOps 업무를 지원하며, 네트워크 및 보안 설정 경험도 갖추고 있습니다."
+        value: "90" #0-100 progress in %
+
+      - label: "SQL" #0-10 progress in dots
+        text: "복잡한 조인(Join), 서브쿼리(Subquery), 윈도우 함수(Window Function)를 활용한 데이터 분석 및 보고서 작성 경험이 있으며, 인덱스 설계와 쿼리 최적화를 통해 데이터베이스 성능을 개선해 왔습니다. MySQL과 PostgreSQL 등 다양한 RDBMS 환경에서 스키마 설계와 마이그레이션을 수행했습니다."
+        value: "90" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
@@ -95,71 +107,71 @@ resume:
   education:
     title: "Education"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "Korea Polytechnics"
+        subname: "department of cyber security"
+        period: "2024 - 2026"
+        text: "한국폴리텍대학 강서캠퍼스 사이버보안과에 진학하여 보안 관련 지식을 쌓았습니다."
 
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      # - name: "Lviv National Academy of Arts"
+      #   subname: "Faculty of Design"
+      #   period: "2012 - 2014"
+      #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      # - name: "IT Future"
+      #   subname: "High School"
+      #   period: "2010 - 2012"
+      #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
   experience:
     title: "Experience"
     items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "모의해킹 동아리 VANGUARD"
+        subname: "사이버보안과 소속 VANGUARD 동아리"
+        period: "2024 - <b>Present</b>"
+        text: "교내 모의 해킹 동아리 회장을 맡아 동아리를 이끌었으며 모의 해킹 및 취약점 분석, 지식을 습득하였습니다."
 
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "LG U+ 시큐리티 해커톤"
+        subname: "LG U+에서 개최한 전세계 hackerthon 대회"
+        period: "2024.11.16"
+        text: "모의 해킹 그룹을 구성하여 대회 출전하였습니다."
 
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "LSWare 취약점 도구 검수"
+        subname: "웹 취약점 진단 도구 검수"
+        period: "2024.11.18 - 2024.11.25"
+        text: "엘웨스웨어(주) 웹 취약점 진단 도구를 검수하였습니다."
 
 
 ### Testimonials [ testimonials ]
 testimonials:
   title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
-  bg_title: "Reviews"
+  subtitle: "what <b>IT master</b>"
+  bg_title: "나의 우상들의 명언"
 
   items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - image: "assets/img/testimonials/virginia.jpg"
+      name: "Virginia Rometty"
+      role: "IBM CEO"
+      text: "먼저 개척해라. 그리고 고독해져라."
 
-    - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - image: "assets/img/testimonials/mark.jpg"
+      name: "Mark Elliot Zuckerberg"
+      role: "META CEO"
+      text: "빨리 움직여 문제점을 해결하라. 당신이 문제점을 해결하지 않으면 당신을 빨리 나아갈 수 없을 것이다."
 
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - image: "assets/img/testimonials/bill.jpg"
+      name: "Bill gates"
+      role: "Microsoft CEO"
+      text: "성공은 형편없는 선생님이다. 그것은 똑똑한 사람들로 하여금 절대 패할 수 없다고 착각하게 만든다."
 
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    # - image: "assets/img/testimonials/testi4-3.jpg"
+    #   name: "Jennifer Smith"
+    #   role: "CEO &amp; Founder"
+    #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    # - image: "assets/img/testimonials/testi4-5.jpg"
+    #   name: "Paul Freeman"
+    #   role: "Photographer"
+    #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### Pricing [ pricing ]
