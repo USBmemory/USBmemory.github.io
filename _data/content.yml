@@ -17,7 +17,7 @@ hero:
   button2:
     label: "My Skills"
     link: "#skills-section"
-  bg_title: "Web Developer"
+  bg_title: "Hacker"
   info:
     - num: "2 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
